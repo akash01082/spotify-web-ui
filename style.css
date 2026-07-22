@@ -24,6 +24,7 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player{
@@ -139,17 +140,17 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 0.25rem 0 1rem 0;
+    z-index: 10;
 }
 
 .sticky-nav-icons {
-    margin-left: 0.75rem;
+    margin-left: 0.25rem;
 }
 
 .sticky-nav-options{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 1rem;
 }
 
 .nav-item{
@@ -161,3 +162,47 @@ a{
         display: none;
     }
 }
+
+
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+
+.footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
