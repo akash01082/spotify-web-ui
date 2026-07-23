@@ -206,3 +206,19 @@ a{
     opacity: 0.4;
 }
 
+.music-player{
+    display: flex;
+    justify-content: space-between;
+}
+.album{
+    width: 25%;
+    padding: 1rem;
+}
+
+.player{
+    width: 40%;
+}
+
+.controls{
+    width: 30%;
+}
